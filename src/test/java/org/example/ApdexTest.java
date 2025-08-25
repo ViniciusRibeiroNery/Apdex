@@ -8,11 +8,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class ApdexTest {
 
-    private Apdex apdex; // objeto usado em todos os testes
+    private Apdex apdex;
 
     @BeforeEach
     void setUp() {
-        apdex = new Apdex(); // inicializa antes de cada teste
+        apdex = new Apdex();
     }
 
     @Test
